@@ -2,6 +2,12 @@
  anaconda python 3.5<br/>
  code source hint:-kaggle<br/>
  data set:-kaggle<br/>
+ # course hint
+ Machine Learning | Coursera<br/>
+ Supervised Learning<br/>
+ UnSupervised Learning<br/>
+ Andrew Ng<br/>
+American computer scientist<br/>
 # Visual Detection
 It is the process of finding real-world object instances like car, bike, TV,
 flowers, and humans in still images or Videos. It allows for the recognition, localization, and
