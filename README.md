@@ -46,3 +46,6 @@ _ANCHORS = [(10, 13), (16, 30), (33, 23),(30, 61), (62, 45), (59, 119),(116, 90)
 _MODEL_SIZE = (416, 416)_MODEL_SIZErefers to the input size of the model.
 # Leaky ReLU
 Leaky ReLU is a slight modification of ReLU activation function.
+# REFERENCES
+Towards  data  science  visual  detection  and  recognition.  An  introduction  to  implementing the YOLO algorithm for multi object detection in images
+kaggle: visual detection and  recognition.import libraries and define functions for plotting the datausing Tenserflow, Convolutional neural network and Yolo.
