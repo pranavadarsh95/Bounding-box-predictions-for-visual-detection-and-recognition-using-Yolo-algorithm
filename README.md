@@ -1,4 +1,7 @@
  Bounding-box-predictions-for-visual-detection-and-recognition-using-Yolo-algorithm
+ anaconda python 3.5
+ code source hint:-kaggle
+ data set:-kaggle
 # Visual Detection
 It is the process of finding real-world object instances like car, bike, TV,
 flowers, and humans in still images or Videos. It allows for the recognition, localization, and
