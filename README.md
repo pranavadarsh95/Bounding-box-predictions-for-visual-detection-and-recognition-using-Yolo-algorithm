@@ -29,23 +29,23 @@ Another big challengeis the different  conceivable   sizes   of   visuals. When 
 # Modeling
 A third challenge is solving two problems at the same time. How do we combine the two differenttypes of requirements: location and classification into, ideally, a single model?
 # Dependencies
-To   build   Yolo   we're   going   to   need   Tensorflow   (deep   learning),   NumPy(numerical computation)  and  Pillow  (image  processing)  libraries.  Also  we're  going  to  use  seaborn's color  palette  for  bounding  boxes  colors.  Finally,  let's  import  IPython  functiondisplay()to display images in the notebook.
-import tensorflow as tf
-import numpy as np 
-from PIL import Image,ImageDraw,ImageFont
-from IPython.display 
-import display from seaborn 
-import color_palette 
-import cv2.
+To   build   Yolo   we're   going   to   need   Tensorflow   (deep   learning),   NumPy(numerical computation)  and  Pillow  (image  processing)  libraries.  Also  we're  going  to  use  seaborn's color  palette  for  bounding  boxes  colors.  Finally,  let's  import  IPython  functiondisplay()to display images in the notebook.<br/>
+import tensorflow as tf<br/>
+import numpy as np <br/>
+from PIL import Image,ImageDraw,ImageFont<br/>
+from IPython.display <br/>
+import display from seaborn <br/>
+import color_palette <br/>
+import cv2.<br/>
 # Model hyper parameters
-Next, we define some configurations for Yolo.
-_BATCH_NORM_DECAY = 0.9
-_BATCH_NORM_EPSILON = 1e-05
-_LEAKY_RELU = 0.1
-_ANCHORS = [(10, 13), (16, 30), (33, 23),(30, 61), (62, 45), (59, 119),(116, 90), (156, 198), (373, 326)]
-_MODEL_SIZE = (416, 416)_MODEL_SIZErefers to the input size of the model.
+Next, we define some configurations for Yolo.<br/>
+_BATCH_NORM_DECAY = 0.9<br/>
+_BATCH_NORM_EPSILON = 1e-05<br/>
+_LEAKY_RELU = 0.1<br/>
+_ANCHORS = [(10, 13), (16, 30), (33, 23),(30, 61), (62, 45), (59, 119),(116, 90), (156, 198), (373, 326)]<br/>
+_MODEL_SIZE = (416, 416)_MODEL_SIZErefers to the input size of the model.<br/>
 # Leaky ReLU
 Leaky ReLU is a slight modification of ReLU activation function.
 # REFERENCES
-Towards  data  science  visual  detection  and  recognition.  An  introduction  to  implementing the YOLO algorithm for multi object detection in images
-kaggle: visual detection and  recognition.import libraries and define functions for plotting the datausing Tenserflow, Convolutional neural network and Yolo.
+Towards  data  science  visual  detection  and  recognition.  An  introduction  to  implementing the YOLO algorithm for multi object detection in images<br/>
+kaggle: visual detection and  recognition.import libraries and define functions for plotting the datausing Tenserflow, Convolutional neural network and Yolo.<br/>
